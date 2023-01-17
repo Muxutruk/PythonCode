@@ -1,9 +1,9 @@
 def factorial(num = int):
     result = 1
-    
     for x in range(1,num):
         result = result*(x)
     return result
+
 def fibbonaci(num = int):
     if num < 1:
         return("Enter a positive number equal or more than 1")
@@ -17,6 +17,7 @@ def fibbonaci(num = int):
             old = new
             new = result
         return result
+        
 def factors(num):
     factorlist = []
     for i in range(1,num+1):
