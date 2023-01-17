@@ -9,7 +9,14 @@ def TwoPoints(point1 = tuple, point2 = tuple):
 def FindRoot(m = float,n = float):
     return f"Root:{-n/m}"
 
+def Slopeprint(m = float, n = float):
+    result = ""
+    for i in range(-3,4):
+        result = result + f"f({i}) = {m*i+n}\n"
+    return result
+
 
 print(PointAndSlope((1,1), 2))
 print(TwoPoints((6,5),(1,3)))
 print(FindRoot(2,-3))
+print(Slopeprint(2,-3))
