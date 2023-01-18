@@ -36,5 +36,3 @@ for i in range(10):
 
 for i in range(135,145):
     print(f"factors of {i}: {factors(i)}")
-
-print(factorial(20))
