@@ -13,3 +13,10 @@ TwoPoints((X1,Y1),(X2,Y2)), input: Two points, output: Equation
 FindRoot(SLOPE,COSTANT), input: Equation, output: Root/Xintercept
 Slopeprint(SLOPE,COSTANT), input: Equation, output: Evaluation from -3 to 3
 ```
+
+And finally, miscallenous.py has three functions, the only thing to change is the lower part, the printing side
+```
+factorial(INT>0), returs the product of all integers below it, for example, 20! = 1*2*3*4*5...19*20
+fibbonaci(INT>0), return the nth fibbonaci number, the first and the second being 1
+factors(INT>0), returs all the factors of the number
+```
