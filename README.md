@@ -1,5 +1,5 @@
 # Readme not important
-This proyect is simply python code that has to do with math. It is very-very simple and the purpose of this code is to learn how python functions work and how thay can be used
+This proyect is simply python code that has to do with math. It is very-very simple, it is my personal proyect but i'd like to have some contributors
 
 dx.py evaluates the derivate of a function, by default,f(x) = ln(x), on the points from 1 to 9. Change the first function to the function you want to evaluate
 
